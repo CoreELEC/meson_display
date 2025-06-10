@@ -6,6 +6,7 @@
  *
  * Description:
  */
+#include <sys/ioctl.h>
 
 #include "mode_util.h"
 

@@ -88,7 +88,7 @@ extern "C" {
 #define __unused __attribute__((__unused__))
 #endif
 
-#include <linux/amlogic/drm/meson_drm.h>
+#include <libdrm_meson/meson_drm.h>
 #endif
 
 int32_t meson_mode_write_sys(const char *path, const char *val);
